@@ -1,0 +1,12 @@
+package com.example.demo.entities;
+
+public class Sas extends Entreprise{
+	
+
+	private String AdressSS;
+	
+	public Sas(Long siretNum, String denomination,String AdressSS) {
+		super(siretNum, denomination);
+		// TODO Auto-generated constructor stub
+	}
+}

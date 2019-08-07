@@ -1,0 +1,7 @@
+package com.example.demo.entities;
+
+public class Sas extends Entreprise{
+	
+
+	private String AdressSS;
+}

@@ -1,0 +1,15 @@
+package com.example.demo.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EntrepriseServiceImpl implements EntrepriseService {
+
+	@Override
+	public float CalculImpo(Long Siret, float CA) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

@@ -1,0 +1,6 @@
+package com.example.demo.services;
+
+public class ServicesConstants {
+	public static final long IMPOT_SAS = 33;
+	public static final long IMPOT_AE = 25;
+}

@@ -1,0 +1,21 @@
+package com.example.demo.entities;
+
+public class Sas extends Entreprise{
+	
+
+	private String AdressSS;
+	public String getAdressSS() {
+		return adressSS;
+	}
+
+	public void setAdressSS(String adressSS) {
+		this.adressSS = adressSS;
+	}
+
+	public Sas(Long siretNum, String denomination, String adressSS) {
+		super(siretNum, denomination);
+		this.adressSS = adressSS;
+	}
+	
+
+}
