@@ -1,5 +1,5 @@
 package com.example.demo.services;
-//Contient les Constante de tout les services
+
 public class ServicesConstants {
 	//Constant du pourcentage d'impo pour les SAS
 	public static final long IMPOT_SAS = 33;

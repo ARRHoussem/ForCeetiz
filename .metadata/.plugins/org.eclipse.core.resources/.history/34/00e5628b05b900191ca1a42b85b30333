@@ -11,12 +11,6 @@ import com.example.demo.entities.Entreprise;
 public class EntrepriseServiceImpl implements EntrepriseService {
 	@Autowired
 	private EntrepriseRepository entrepiseRepository;
-	/**
-	 * 
-	 * entrée :	Long Siret -- Numéro Siret de l'entreprise
-	 * 			float CA -- Le CA de l'entreprise
-	 * Recherche le type d'entreprise via sa clé primaire SiretNum et calcule les impo selon le baréme adéquat
-	 */
 	@Override
 	public float CalculImpo(Long Siret, float CA) {
 		float impot = 0;
